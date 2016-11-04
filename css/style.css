@@ -1,0 +1,456 @@
+li,span,em,a,i{
+	box-sizing: border-box;
+	display: inline-block;
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background:#fff;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.wrap{
+	width:960px;
+	margin:0 auto;
+	padding: 0;
+}
+.topmenu{
+	background:#f2f2f2;
+	height:30px;
+	line-height:30px;
+}
+.topmenu a,.topmenu em,.topmenu li{
+	height: 30px;
+}
+.logobox{
+	height:82px;
+	padding-left: 165px;
+	background: url(../img/logo.png) no-repeat left center;
+	box-sizing: border-box;
+}
+.searchbox{
+	padding: 26px 0;
+	height: 30px;
+}
+.searchbox span{
+	height: 30px;
+	position: relative;
+	width: 220px;
+	margin-right: 10px;
+}
+.searchbox input{
+	width: 220px;
+	padding:5px 40px 5px 10px;
+	height: 30px;
+	line-height: 20px;
+	border:1px solid #ccc;
+	border-radius: 20px;
+	box-sizing: border-box;
+	-webkit-box-shadow:0 0 6px #999;  
+    -moz-box-shadow:0 0 6px #999;  
+    box-shadow:0 0 6px #999;
+}
+.search-button{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 30px;
+	width: 50px;
+	color:#999;
+	background: url(../img/search_icon.png) no-repeat center;
+}
+.menu{
+	height: 50px;
+	line-height: 50px;
+	background: #5488cc;
+}
+.menu a{
+	font-size: 18px;
+	color: #fff;
+	padding: 0 16px;
+}
+/*banner*/
+.banner{
+	height: 300px;
+	text-align: center;
+}
+/*announce*/
+.announce{
+	height: 30px;
+	margin: 10px 0;
+	background: -webkit-linear-gradient(#f2f2f1, #dbdbda); /* Safari 5.1 - 6.0 */
+  	background: -o-linear-gradient(#f2f2f1, #dbdbda); /* Opera 11.1 - 12.0 */
+  	background: -moz-linear-gradient(#f2f2f1, #dbdbda); /* Firefox 3.6 - 15 */
+  	background: linear-gradient(#f2f2f1, #dbdbda); /* 标准的语法 */
+}
+.announce li{
+	width:700px;
+	height: 30;
+	line-height: 30px;
+}
+.announce li em{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+}
+.announce li i{
+	width: 15px;
+	height: 15px;
+	margin:0 15px 0 0;
+	vertical-align: middle;
+	background: url(../img/important_inform.png);
+}
+.red{
+	color:#ac0000;
+}
+.timespan{
+	width: 90px;
+	margin-left: 80px;
+	color: #ccc;
+	text-align: right;
+}
+/*move*/
+.movebox{
+	height: 425px;
+}
+.titlebox{
+	height: 62px;
+	line-height: 62px;
+	font-size: 20px;
+}
+.movecontent{
+	height: 340px;
+	margin-bottom: 20px;
+}
+.moverchange{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+.moverchange a{
+	width: 120px;
+	height: 6px;
+	background: #ccc;
+	margin: 0 10px;
+	border-radius: 5px;
+}
+.moverchange a.action{
+	background: #1253a9;
+}
+/*service*/
+.service{
+	height: 206px;
+}
+.service ul{
+	width: 200px;
+	height: 138px;
+	margin: 0 20px;
+	float: left;
+	padding: 0;
+}
+.service ul li:nth-child(1){
+	width: 200px;
+	height: 70px;
+}
+.service ul li:nth-child(2){
+	width: 200px;
+	height: 68px;
+	line-height: 68px;
+	text-align: center;
+}
+.icon-internet{
+	background: url(../img/Network_service.png) no-repeat center;
+}
+.icon-own{
+	background: url(../img/hotel_reservation.png) no-repeat center;
+}
+.icon-hotel{
+	background: url(../img/self_service.png) no-repeat center;
+}
+.icon-airplane{
+	background: url(../img/Ticket_reservation.png) no-repeat center;
+}
+/*benefit*/
+.benefit{
+	height:172px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.benefit .wrap{
+	position: relative;
+
+}
+.benefit ul{
+	width:479px;
+	margin: 0;
+	height: 172px;
+	padding:60px 0 8px 0;
+	box-sizing: border-box;
+}       
+.benefit .titlebox{
+	width: 479px;
+	position: absolute;
+	top:0;
+}
+.benefit .titlebox a{
+	font-size: 14px;
+	margin-right: 20px;
+}
+.benefit ul.fl{
+	border-right: 1px solid #ccc;
+	padding-right: 20px;
+}
+.benefit ul.fr{
+	padding-left: 20px;
+
+}
+.benefit ul.fl li i{
+	width: 25px;
+	height: 25px;
+	lighting-color: 25px;
+	text-align: center;
+	border-radius: 100px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.benefit ul.fr li i{
+	width: 5px;
+	height: 5px;
+	background: #666;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-top:8px;
+	vertical-align: middle;
+}
+.benefit ul li em{
+	color:#ccc;
+}
+.benefit ul li a{
+	color:#333;
+}
+.benefit ul.fr li{
+	border-bottom: 1px dotted #ccc;
+}
+.benefit ul li{
+	width: 459px;
+	height: 25px;
+	line-height: 25px;
+	margin: 5px 0;
+}
+.iconfire{
+	background: url(../img/01_hot_fire.png) no-repeat center;
+}
+.iconnum{
+	background: #ccc;
+}
+/*introduce*/
+.introduce{
+	 height:490px;
+}
+.introcon ul{
+	width:248px;
+	padding: 0 36px;
+	margin: 0;
+
+
+}
+.introcon ul li{
+	width: 248px;
+	line-height: 40px;
+}
+.introcon ul li i{
+	width: 5px;
+	height: 5px;
+	background: #666;
+	border-radius: 5px;
+	margin-right: 10px;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+.introcon ul li a{
+	color:#333;
+}
+.introcon ul li:nth-child(1){
+	font-size: 18px;
+	color: #1253a9;
+	text-align: center;
+}
+.introcon ul li:nth-child(2){
+	height:122px;
+	margin: 10px 0;
+	text-align: center;
+	line-height: 0;
+	border: 1px solid #ccc;
+}
+/*finance*/
+.finance{
+	height: 200px;
+}
+.finance ul{
+	width: 320px;
+	overflow: hidden;
+	padding: 0;
+	margin:0;
+}
+.finance ul li:nth-child(1){
+	width: 320px;
+	height: 75px;
+}
+.finance ul li:nth-child(2){
+	width: 320px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin-bottom: 13px;
+}
+.financecon{
+	height: 138px;
+}
+.iconlist{
+	background: url(../img/Network_service.png) no-repeat center;
+}
+.iconloan{
+	background: url(../img/Network_service.png) no-repeat center;
+}
+.icondeposit{
+	background: url(../img/Network_service.png) no-repeat center;
+}
+/*bank announce*/
+.bank{
+	height:250px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.bankcon ul{
+	width: 460px;
+	margin: 0;
+	padding: 0;
+}
+.bankcon ul li{
+	width: 460px;
+	line-height: 33px;
+}
+.bankcon ul li:nth-child(1){
+	text-align: right;
+	height: 25px;
+	line-height: 25px;
+	box-sizing: content-box;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+.bankcon ul li:nth-child(1) a{
+	width: 50px;
+	font-size: 12px;
+}
+.bankcon ul li i{
+	width: 5px;
+	height: 5px;
+	background: #666;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-top:13px;
+	vertical-align: middle;
+
+}
+.bankcon ul li em{
+	color:#ccc;
+}
+.bankcon ul li a{
+	width: 300px;
+	overflow: hidden;
+	word-break: keep-all;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	color: #333;
+}
+/*imglink*/
+.link{
+	height: 168px;
+}
+.link a{
+	margin: 30px 0;
+	width: 300px;
+	height: 108px;
+	border:1px solid #fefefe;
+	overflow: hidden;
+	-webkit-box-shadow:0 0 10px #999;  
+    -moz-box-shadow:0 0 10px #999;  
+    box-shadow:0 0 10px #999;
+}
+.link a:nth-child(2){
+	margin: 30px;
+}
+/*foot*/
+.foot{
+	font-size: 12px;
+	height: 192px;
+	padding: 30px 0;
+	background:#f2f2f2;
+}
+.foottop {
+	height: 150px;
+}
+.foottop ul.fl{
+	width: 360px;
+}
+.foottop ul.fr{
+	width: 460px;
+}
+.foottop ul li{
+	width: 360px;
+	height: 25px;
+	line-height: 25px;
+}
+.foottop ul li span{
+	width: 60px;
+}
+.foottop ul.fr li{
+	width: 99px;
+	margin: 0 0 0 30px;
+	padding: 0;
+}
+.foottop ul.fr li a{
+	width: 99px;
+	height: 99px;
+	border: 1px solid #ccc;
+}
+.foottop ul.fr li em{
+	width: 99px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.footbtm {
+	text-align: center;
+}
+.footbtm span{
+	height: 54px;
+	line-height: 54px;
+	padding-left: 100px;
+	background: url(../img/Network_service.png) no-repeat left center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
