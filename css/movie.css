@@ -1,0 +1,28 @@
+/*move*/
+.movebox{
+    height: 425px;
+}
+.titlebox{
+    height: 62px;
+    line-height: 62px;
+    font-size: 20px;
+}
+.movecontent{
+    height: 340px;
+    margin-bottom: 20px;
+}
+.moverchange{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.moverchange a{
+    width: 120px;
+    height: 6px;
+    background: #ccc;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+.moverchange a.action{
+    background: #1253a9;
+}

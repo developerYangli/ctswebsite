@@ -1,0 +1,37 @@
+/*announce*/
+.announce{
+    height: 30px;
+    margin: 10px 0;
+    background: -webkit-linear-gradient(#f2f2f1, #dbdbda); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#f2f2f1, #dbdbda); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#f2f2f1, #dbdbda); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#f2f2f1, #dbdbda); /* 标准的语法 */
+}
+.announce li{
+    width:700px;
+    height: 30px;
+    line-height: 30px;
+}
+.announce li em{
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+}
+.announce li i{
+    width: 15px;
+    height: 15px;
+    margin:0 15px 0 0;
+    vertical-align: middle;
+    background: url(../img/important_inform.png);
+}
+.announce a{
+    line-height: 30px;
+}
+.red{
+    color:#ac0000;
+}
+.timespan{
+    margin-left: 80px;
+    color: #ccc;
+    text-align: right;
+}
