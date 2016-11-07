@@ -1,0 +1,38 @@
+.introduce{
+    height:490px;
+}
+.introcon ul{
+    width:248px;
+    padding: 0 36px;
+    margin: 0;
+
+
+}
+.introcon ul li{
+    width: 248px;
+    line-height: 40px;
+}
+.introcon ul li i{
+    width: 5px;
+    height: 5px;
+    background: #666;
+    border-radius: 5px;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.introcon ul li a{
+    color:#333;
+}
+.introcon ul li:nth-child(1){
+    font-size: 18px;
+    color: #1253a9;
+    text-align: center;
+}
+.introcon ul li:nth-child(2){
+    height:122px;
+    margin: 10px 0;
+    text-align: center;
+    line-height: 0;
+    border: 1px solid #ccc;
+}

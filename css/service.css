@@ -1,0 +1,32 @@
+.service{
+    height: 206px;
+}
+.service ul{
+    width: 200px;
+    height: 138px;
+    margin: 0 20px;
+    float: left;
+    padding: 0;
+}
+.service ul li:nth-child(1){
+    width: 200px;
+    height: 70px;
+}
+.service ul li:nth-child(2){
+    width: 200px;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+}
+.icon-internet{
+    background: url(../img/Network_service.png) no-repeat center;
+}
+.icon-own{
+    background: url(../img/hotel_reservation.png) no-repeat center;
+}
+.icon-hotel{
+    background: url(../img/self_service.png) no-repeat center;
+}
+.icon-airplane{
+    background: url(../img/Ticket_reservation.png) no-repeat center;
+}

@@ -6,6 +6,11 @@ import Header from './common/header.js';
 import Banner from './component/banner.js';
 import Publish from './component/publish';
 import Movie from './component/movie';
+import Service from './component/service';
+import Benefit from './component/benefit';
+import Introdction from './component/introduction';
+
+
 import ReactDOM from 'react-dom';
 
 ReactDOM.render(
@@ -14,5 +19,8 @@ ReactDOM.render(
     <Banner/>
     <Publish/>
     <Movie />
+    <Service />
+    <Benefit />
+    <Introdction/>
   </div>
   , document.getElementById('app'));

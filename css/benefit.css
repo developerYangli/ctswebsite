@@ -1,0 +1,72 @@
+.benefit{
+    height:172px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.benefit .wrap{
+    position: relative;
+
+}
+.benefit ul{
+    width:479px;
+    margin: 0;
+    height: 172px;
+    padding:60px 0 8px 0;
+    box-sizing: border-box;
+}
+.benefit .titlebox{
+    width: 479px;
+    position: absolute;
+    top:0;
+}
+.benefit .titlebox a{
+    font-size: 14px;
+    margin-right: 20px;
+}
+.benefit ul.fl{
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+}
+.benefit ul.fr{
+    padding-left: 20px;
+
+}
+.benefit ul.fl li i{
+    width: 25px;
+    height: 25px;
+    lighting-color: 25px;
+    text-align: center;
+    border-radius: 100px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.benefit ul.fr li i{
+    width: 5px;
+    height: 5px;
+    background: #666;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top:8px;
+    vertical-align: middle;
+}
+.benefit ul li em{
+    color:#ccc;
+}
+.benefit ul li a{
+    color:#333;
+}
+.benefit ul.fr li{
+    border-bottom: 1px dotted #ccc;
+}
+.benefit ul li{
+    width: 459px;
+    height: 25px;
+    line-height: 25px;
+    margin: 5px 0;
+}
+.iconfire{
+    background: url(../img/01_hot_fire.png) no-repeat center;
+}
+.iconnum{
+    background: #ccc;
+}
