@@ -8,7 +8,11 @@ import Publish from './component/publish';
 import Movie from './component/movie';
 import Service from './component/service';
 import Benefit from './component/benefit';
-import Introdction from './component/introduction';
+import Introduction from './component/introduction';
+import Finance from './component/finance';
+import Bank from './component/bank';
+import Link from './component/link';
+import Foot from './component/foot';
 
 
 import ReactDOM from 'react-dom';
@@ -21,6 +25,10 @@ ReactDOM.render(
     <Movie />
     <Service />
     <Benefit />
-    <Introdction/>
+    <Introduction/>
+    <Finance/>
+    <Bank />
+    <Link/>
+    <Foot/>
   </div>
   , document.getElementById('app'));

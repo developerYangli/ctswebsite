@@ -1,0 +1,48 @@
+.bank{
+    height:250px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.bankcon ul{
+    width: 460px;
+    margin: 0;
+    padding: 0;
+}
+.bankcon ul li{
+    width: 460px;
+    line-height: 33px;
+}
+.bankcon ul li:nth-child(1){
+    text-align: right;
+    height: 25px;
+    line-height: 25px;
+    box-sizing: content-box;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.bankcon ul li:nth-child(1) a{
+    width: 50px;
+    font-size: 12px;
+}
+.bankcon ul li i{
+    width: 5px;
+    height: 5px;
+    background: #666;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top:13px;
+    vertical-align: middle;
+
+}
+.bankcon ul li em{
+    color:#ccc;
+}
+.bankcon ul li a{
+    width: 300px;
+    overflow: hidden;
+    word-break: keep-all;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    color: #333;
+}

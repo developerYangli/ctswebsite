@@ -1,0 +1,48 @@
+.foot{
+    font-size: 12px;
+    height: 192px;
+    padding: 30px 0;
+    background:#f2f2f2;
+}
+.foottop {
+    height: 150px;
+}
+.foottop ul.fl{
+    width: 360px;
+}
+.foottop ul.fr{
+    width: 460px;
+}
+.foottop ul li{
+    width: 360px;
+    height: 25px;
+    line-height: 25px;
+}
+.foottop ul li span{
+    width: 60px;
+}
+.foottop ul.fr li{
+    width: 99px;
+    margin: 0 0 0 30px;
+    padding: 0;
+}
+.foottop ul.fr li a{
+    width: 99px;
+    height: 99px;
+    border: 1px solid #ccc;
+}
+.foottop ul.fr li em{
+    width: 99px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.footbtm {
+    text-align: center;
+}
+.footbtm span{
+    height: 54px;
+    line-height: 54px;
+    padding-left: 100px;
+    background: url(../img/Network_service.png) no-repeat left center;
+}
