@@ -1,7 +1,7 @@
 /**
  * Created by kanily on 16/11/6.
  */
-import React from 'react';
+import React, { Component } from 'react';
 import '../../css/publish.css';
 
 
